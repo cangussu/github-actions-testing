@@ -12,3 +12,5 @@ jobs:
           echo "::debug just a debug message"
           echo "::debug:: just a debug:: message"
           echo "::debug::just a debug::message"
+          echo "::notice just a notice"
+          echo "::notice title=notícia::just a notice"
