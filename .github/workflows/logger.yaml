@@ -1,0 +1,12 @@
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'dev'
+
+jobs:
+  test:
+    steps:
+    - run: |
+        echo Hello world!
+        echo "file=test.py,line=27::Hardcoded number"
