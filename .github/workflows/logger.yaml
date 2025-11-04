@@ -8,3 +8,7 @@ jobs:
       - run: |
           echo Hello world!
           echo "::error file=test.py,line=27::Hardcoded number"
+          echo "::error:: just an error:: message"
+          echo "::debug just a debug message"
+          echo "::debug:: just a debug:: message"
+          echo "::debug::just a debug::message"
