@@ -2,8 +2,9 @@ name: Test
 on: [push]
 
 jobs:
-  test:
+  build:
+    runs-on: ubuntu-latest
     steps:
-    - run: |
+      - run: |
         echo Hello world!
         echo "file=test.py,line=27::Hardcoded number"
