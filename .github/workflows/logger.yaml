@@ -7,4 +7,4 @@ jobs:
     steps:
       - run: |
           echo Hello world!
-          echo "file=test.py,line=27::Hardcoded number"
+          echo "::error file=test.py,line=27::Hardcoded number"
